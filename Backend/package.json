@@ -1,0 +1,27 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanshika2407/BookStore.git"
+  },
+  "author": "vanshika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanshika2407/BookStore/issues"
+  },
+  "homepage": "https://github.com/vanshika2407/BookStore#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
